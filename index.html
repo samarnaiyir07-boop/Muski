@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Nikita 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container"></div>
+
+  <div class="controls">
+    <button id="playBtn">🎵 Play</button>
+    <button id="pulseBtn">💓 Open Heart</button>
+    <button id="resetBtn">📷 Reset View</button>
+    <button id="letterBtn">💌 View Letter</button>
+  </div>
+
+  <!-- Letter Modal -->
+  <div id="letterModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <h2>My Dearest Muski 💖</h2>
+      <p>
+        My Dearest Muskan 💖,<br><br>
+        From the very first moment our paths crossed, my world transformed in ways I never imagined. 
+        Every smile of yours feels like sunlight dancing through my soul, every laugh of yours is a melody I want to replay forever. 
+        Being with you even in thoughts when we're apart fills my heart with warmth, joy, and a thousand colors I never knew existed. 🌸✨<br><br>
+        You are my heartbeat, my moonlight in dark nights, my sweetest dream come true. 
+        Every word I write here falls short, yet they carry the entire universe of my love for you. 
+        I want to hold your hand through every storm, celebrate every joy, and whisper sweet secrets only our hearts understand. 💕🌙<br><br>
+        Always know this, my love: you are cherished beyond measure, adored beyond words, and treasured more than life itself. 
+        I promise to make you smile, to protect your heart, and to love you in ways that even poetry cannot capture. ❤️🌹<br><br>
+        Forever and always, just yours,<br>
+        <b>Samar 💖</b>
+      </p>
+    </div>
+  </div>
+
+  <div id="watermark">made by Samar</div>
+
+  <!-- Hidden YouTube Player -->
+  <iframe id="musicPlayer" width="0" height="0"
+    src="https://www.youtube.com/embed/Cb6wuzOurPc?enablejsapi=1&autoplay=0&loop=1&playlist=Cb6wuzOurPc"
+    frameborder="0" allow="autoplay"></iframe>
+
+  <!-- Three.js Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+
+  <!-- ✅ YouTube IFrame API for music control -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+  <!-- Your 3D heart logic -->
+  <script src="heart.js"></script>
+</body>
+</html>
